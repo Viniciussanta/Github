@@ -1,0 +1,43 @@
+{
+    "name": "Buscar Hotel",
+    "short_name": "Buscar",
+    "start_url": "index.html",
+    "display": "standalone",
+    "background_color": "#fdfdfd",
+    "theme_color": "#db4938",
+    
+    "icons": [
+      
+      {
+        "src": "/img/icon/128.png",
+        "type": "image/png","sizes": "128x128"
+      },
+      {
+        "src": "/img/icon/144.png",
+        "type": "image/png", "sizes": "144x144"
+      },
+      {
+        "src": "/img/icon/152.png",
+        "type": "image/png", "sizes": "152x152"
+      },
+      {
+        "src": "/img/icon/196.png",
+        "type": "image/png", "sizes": "196x196"
+      },
+      {
+        "src": "/img/icon/256.png",
+        "type": "image/png", "sizes": "256x256"
+      },
+      {
+        "src": "/img/icon/512.png",
+        "type": "image/png", "sizes": "512x512"
+      },
+
+      {
+        "src": "/img/maskable.png",
+        "sizes": "196x196",
+        "type": "image/png",
+        "purpose": "any maskable"
+      }
+    ]
+  }

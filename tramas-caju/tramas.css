@@ -4,10 +4,7 @@ html {
     font-family: 'Courier New', Courier, monospace;
 }
 
-body {
 
-    background-size: cover;
-}
 
 h1,
 h2,
@@ -19,8 +16,12 @@ span {
     margin: 0;
 }
 
+main{
+    min-width: auto;
+    max-width: auto;
+    margin: auto;
+}
 
-/* header */
 
 
 /* navbar */
@@ -274,4 +275,21 @@ h2 {
     margin-bottom: 1rem;
     padding-bottom: 10px;
     width: 200px;
+}
+
+
+/*footer*/
+
+
+
+.divisão{
+    border-bottom: 20px solid rgba(0, 0, 0, 0.6);
+    margin-bottom: 1rem;
+    padding-bottom: 10px;
+}
+
+#caju{
+     width: 250px;
+     left: 50%;
+     top: 50%;
 }
