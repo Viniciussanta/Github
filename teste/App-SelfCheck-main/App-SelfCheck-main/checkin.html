@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Montserrat:wght@100;400;500&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="">
+    <link href="/assets/img/logo-rodape.svg" rel="icon">
+    <title>Self Check</title>
+
+<body>
+
+    <main id="checkin">
+        <div class="logo-checkin">
+            <img src="assets/img/logo-checkin.svg" alt="">
+        </div>
+    
+        <div class="texto-checkin2">
+            <h2>Faculdade Senac Pernambuco</h2>
+            <h3>R. do Pombal, 57 - Santo Amaro, Recife - PE</h3>
+        </div>
+    
+        <div id="mapa" style="height: 250px; width: 250px; top: 250px; left: 55px; border-radius: 10px;"></div>
+    
+        <div class="botao-checkin">
+            <button id="check-in-btn">Check In</button>
+            <div id="popup" class="popup">
+                <img src="assets/img/icon-checkin-concluido.svg" alt="">
+                <h2>Check In</h2>
+                <h3>Realizado com sucesso!</h3>
+                <button id="fechar-popup">Ok</button>
+            </div>
+        </div>
+    </main>
+    
+    <div>
+        <footer id="footer">
+            <img id="icon-forum" src="assets/img/icon-forum.svg" alt="">
+            <img id="icon-pontos" src="assets/img/icon-pontos.svg" alt="">
+            <img id="icon-checkin" src="assets/img/icon-checkin.svg" alt="">
+            <img id="icon-perfil" src="assets/img/icon-perfil.svg" alt="">
+            <img id="icon-sair" src="assets/img/icon-sair.svg" alt="">
+        </footer>
+    </div>
+</body>
+<script src="assets/js/script.js"></script>
+<script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js" integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+<script src="assets/js/loc.js"></script>
+
+</html>
